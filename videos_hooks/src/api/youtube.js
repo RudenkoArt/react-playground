@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const KEY = 'AIzaSyCBpKQx32XJ5wJOANxc75Bx7hnb4l0bf2U';
+// TODO: insert youTube API key
+const KEY = '';
 
 export default axios.create({
   baseURL: 'https://www.googleapis.com/youtube/v3',
