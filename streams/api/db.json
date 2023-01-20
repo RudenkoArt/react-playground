@@ -11,16 +11,22 @@
       "id": 2
     },
     {
-      "description": "Stream with userId",
       "title": "Stream 3",
+      "description": "test",
       "userId": "109774617049081974536",
       "id": 3
     },
     {
       "title": "Stream 4",
-      "description": "unexpected behavior",
+      "description": "test",
       "userId": "109774617049081974536",
       "id": 4
+    },
+    {
+      "title": "Test 1",
+      "description": "Test 1",
+      "userId": "109774617049081974536",
+      "id": 5
     }
   ]
 }
