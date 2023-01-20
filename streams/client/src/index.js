@@ -6,12 +6,16 @@ import {
   applyMiddleware,
   compose,
 } from 'redux';
+import reduxThunk from 'redux-thunk';
 
 import App from './components/App';
 import reducers from './reducers';
 
 const composeEnhencers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const store = createStore(reducers, composeEnhencers(applyMiddleware()));
+const store = createStore(
+  reducers,
+  composeEnhencers(applyMiddleware(reduxThunk))
+);
 const root = createRoot(document.querySelector('#root'));
 
 root.render(
